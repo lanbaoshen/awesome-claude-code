@@ -1,0 +1,5 @@
+{
+    "description": "Android UI test automation agent that executes tasks on real devices and crystallizes them into pytest scripts.",
+    "name": "android-test-automation",
+    "version": "0.1.0"
+}

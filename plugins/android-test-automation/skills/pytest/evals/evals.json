@@ -1,0 +1,23 @@
+{
+    "evals": [
+        {
+            "expected_output": "Generates conftest.py (session-scoped d fixture) and tests/test_wechat.py (class structure, autouse fixture for setup/teardown, test methods using d fixture to interact with WeChat UI)",
+            "files": [],
+            "id": 1,
+            "prompt": "Write a pytest test case for testing WeChat's send message feature. I need both conftest.py and a test file. The test flow is: open WeChat -> go to the contact list -> tap the first contact -> send a test message -> verify the message was sent."
+        },
+        {
+            "expected_output": "Generates a test file using the d fixture, opens Settings via app_start, navigates to About phone, reads the version text with get_text and asserts it is not empty, includes setup/teardown via autouse fixture",
+            "files": [],
+            "id": 2,
+            "prompt": "I have an Android test project with conftest.py already set up. I want to write a test case that verifies the Android version number shown on the About Phone page in Settings is not empty. Can you write that test?"
+        },
+        {
+            "expected_output": "Generates conftest.py (with d fixture and --serial CLI option) and tests/test_calculator.py (tests calculator addition: input numbers, tap plus, tap equals, verify the result)",
+            "files": [],
+            "id": 3,
+            "prompt": "Help me set up the pytest test environment in my project. Create conftest.py and write an example test file that demonstrates how to test the addition feature in the Calculator app."
+        }
+    ],
+    "skill_name": "pytest"
+}

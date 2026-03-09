@@ -1,0 +1,17 @@
+{
+    "metadata": {
+        "description": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code"
+    },
+    "name": "awesome-claude-code",
+    "owner": {
+        "email": "lanbaoshen@icloud.com",
+        "name": "Lanbao Shen",
+        "url": "https://github.com/lanbaoshen/awesome-claude-code"
+    },
+    "plugins": [
+        {
+            "name": "android-test-automation",
+            "source": "./plugins/android-test-automation"
+        }
+    ]
+}
