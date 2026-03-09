@@ -29,7 +29,7 @@ claude plugin install <plugin-name>@awesome-claude-code
 For example:
 
 ```bash
-claude plugin install android-test-automation
+claude plugin install android-test-automation@awesome-claude-code
 ```
 
 ## Plugins
