@@ -72,17 +72,13 @@ def d(request):
     """
     serial = request.config.getoption("--serial")
     device = u2.connect(serial=serial) if serial else u2.connect()
-    device.screen_on()
-    device.unlock()
     yield device
-    # Session teardown: press home to leave a clean state
-    device.press("home")
 ```
 
 To target a specific device when multiple are connected:
 
 ```bash
-uv run pytest --serial d74e53a3
+uv run pytest --serial emulator-5554
 ```
 
 ---
